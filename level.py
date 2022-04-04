@@ -72,6 +72,7 @@ game_over = False
 win_game = False
 records_show = False
 lvl = 0
+tr = 0
 while True:
     mouse_pos = [-1, -1]
     for event in pg.event.get():
